@@ -1,0 +1,89 @@
+body {
+    background-color: #d2b48c;  /* Beige background color */
+    color: #0b0b0b; /* Black text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url("bgg.jpg") ;
+    background-size:inherit ;
+}
+
+.contact-section {
+    background-color: #d2b48c; /* Beige container background color */
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid #d2b48c; /* border color */
+    box-shadow: 0 0 10px rgba(238, 169, 90, 0.603);
+}
+
+.contact-title {
+    color: #8c5205; /* Tan title color */
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item img {
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+input {
+    border: 1px solid #e9c698; /* Beige border color */
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+a {
+    color: #e6bd88; /* Beige link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    width: 500px;
+    margin: 50px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #8b4513; /* Saddle Brown button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
